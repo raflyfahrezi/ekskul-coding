@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('./styles/slider.css');
+@import url('./styles/header.css');
+@import url('./styles/flowers.css');
+
+.buttonplay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 20px;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  background: #54b8aa;
+}

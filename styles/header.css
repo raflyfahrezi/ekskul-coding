@@ -1,0 +1,42 @@
+.header {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  padding-top: 40px;
+
+  z-index: 20;
+}
+
+.header p {
+  font-family: 'Dancing Script', cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 100px;
+
+  /* color: #6bf0ff; */
+
+  position: relative;
+
+  background: linear-gradient(to top, #54b8aa, yellow);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header p::after {
+  content: '';
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8vmin;
+  height: 8vmin;
+  background-color: #6bf0ff;
+  filter: blur(10vmin);
+}

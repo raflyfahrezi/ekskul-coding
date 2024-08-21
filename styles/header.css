@@ -11,7 +11,7 @@
   z-index: 20;
 }
 
-.header p {
+.header p:first-child {
   font-family: 'Dancing Script', cursive;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -26,6 +26,14 @@
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.header p:last-child {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: white;
 }
 
 .header p::after {
